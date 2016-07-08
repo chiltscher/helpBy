@@ -1,0 +1,32 @@
+{
+    "name": "helpBy",
+    "description": "Tool with some functions",
+    "author": {
+        "name": "Christian Hiltscher",
+        "email": "hiltscher.Christian@gmail.com"
+    },
+    "keywords": [
+        "helper", "utils", "tools"
+    ],
+    "version": "0.0.2",
+    "main": "index",
+    "bin": "bin/helpBy",
+    "preferGlobal": true,
+    "dependencies": {
+
+    },
+    "engines": {
+        "node": ">0.6.0"
+    },
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chiltscher/helpBy"
+    },
+    "bugs": {
+
+    },
+    "licenses": [
+
+    ]
+}
