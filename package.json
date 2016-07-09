@@ -6,9 +6,9 @@
         "email": "hiltscher.Christian@gmail.com"
     },
     "keywords": [
-        "helper", "utils", "tools"
+        "helper", "utils", "tools", "string", "capitalize", "decapitalize"
     ],
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "index",
     "bin": "bin/helpBy",
     "preferGlobal": true,
