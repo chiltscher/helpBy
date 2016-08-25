@@ -67,7 +67,8 @@ helpBy.isCapital = function(letter) {
     return (letter == letter.toUpperCase());
 }
 
-helpBy.removing = function(array, el) {
+//removes an element from an array
+helpBy.removingFromArray = function(array, el) {
 
     if (!util.isArray(array))
         return -1
@@ -80,6 +81,29 @@ helpBy.removing = function(array, el) {
     array.splice(index, 1);
 
     return array;
+}
+
+//places an number of digits in front of a number
+//Example:
+//helpBy.zerosInFront(5, 3)
+//>> 005
+//helpBy.zerosInFront(25, 3)
+//>> 025
+
+helpBy.zerosInFront = function(number, digits){
+
+    var len = number.toString().length;
+    var neededDigits = digits - len;
+    var numberString = '';
+
+    while(neededDigits > 0)
+    {
+            numberString += '0';
+            neededDigits --;
+    }
+
+    numberString += number.toString();
+    return numberString;
 }
 
 
